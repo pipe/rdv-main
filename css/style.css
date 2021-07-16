@@ -1,0 +1,383 @@
+@font-face {
+    font-family: 'AdiHaus Regular';
+    src: url('../fonts/AdiHaus_Regular.woff2') format('woff2'), url('../fonts/AdiHaus_Regular.woff') format('woff'), url('../fonts/AdiHaus_Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AdiHaus Bold';
+    src: url('../fonts/AdiHaus_Bold.woff2') format('woff2'), url('../fonts/AdiHaus_Bold.woff') format('woff'), url('../fonts/AdiHaus_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AdihausDIN Bold';
+    src: url('../fonts/AdihausDIN_Bold.woff2') format('woff2'), url('../fonts/AdihausDIN_Bold.woff') format('woff'), url('../fonts/AdihausDIN_Bold.ttf') format('truetype');
+}
+
+body {
+    font-family: 'AdiHaus Regular', sans-serif;
+    margin: 0 auto;
+    width: 100%;
+}
+
+p {
+    margin-top: 0;
+}
+
+a {
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.container {
+    max-width: 1920px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.container_inner {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.grid__1_2 {
+    width: 50%;
+    float: left;
+}
+
+.row {
+    overflow: hidden;
+    clear: both;
+}
+
+.mainWrapper {
+    background-image: url(../Img/Rendevous_BG.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 45px 0 40px 0;
+    position: relative;
+}
+
+.logo__right {
+    text-align: right;
+}
+
+.center_align {
+    text-align: center;
+}
+
+.rdv__items {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.rdv__content p {
+    font-size: 1.46rem;
+    color: rgba(96, 34, 80, 1);
+    font-weight: lighter;
+}
+
+.rdv_blocks__header h4 span {
+    font-size: 1.25rem;
+    color: rgba(96, 34, 80, 1);
+    font-family: 'AdiHaus Bold', sans-serif;
+}
+
+.rdv_blocks__header h4 img {
+    padding: 0 14px;
+    height: 0.1rem;
+    border-radius: 99px;
+    max-width: 177px;
+}
+
+.rdv_blocks__header h4 img.medium {
+    max-width: 109px;
+}
+
+.rdv_blocks__header h4 img.small {
+    max-width: 75px;
+}
+
+.rdv__service {
+    background-color: rgba(96, 34, 80, 0.19);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+    border-radius: 10px;
+    padding: 10px 10px;
+    position: relative;
+    transition: all ease-in-out 0.5s;
+}
+
+.rdv__service:hover {
+    background-color: rgba(96, 34, 80, 0.29);
+}
+
+.rdv__service a {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.grid__1_6 {
+    width: 16.66%;
+    float: left;
+}
+
+.rdv_blocks_section .grid__items_inner {
+    padding: 0 4px;
+}
+
+.rdv_blocks_section__row {
+    margin: 0 -4px;
+}
+
+.service_header hr {
+    width: 90px;
+    background: rgb(96, 34, 80);
+    height: 0.1rem;
+    border: none;
+}
+
+.service_header {
+    text-align: center;
+    color: #fff;
+}
+
+.service_header h3 {
+    margin: 0;
+}
+
+.service_content {
+    text-align: center;
+    color: #fff;
+    font-size: 0.80rem;
+    height: 160px;
+    display: grid;
+    align-items: center;
+    line-height: 1.6;
+    font-family: 'AdiHaus Bold', sans-serif;
+}
+
+.service_content p {
+    margin: 0;
+}
+
+.hyybab__venuetour .service_header h3 {
+    font-size: 1rem;
+}
+
+.nav__footer li {
+    display: inline-block;
+}
+
+.nav__footer {
+    text-align: center;
+}
+
+.nav__footer li a {
+    color: rgba(242, 242, 242, 0.80);
+    margin: 0 8px;
+}
+
+.pipe__logo img {
+    max-width: 88px;
+}
+
+.flex_row {
+    display: flex;
+    align-items: center;
+}
+
+.rdv__logo img {
+    max-width: 170px;
+    margin-bottom: 22px;
+}
+
+.hyybab__venuetour .service_header svg {
+    max-width: 170px;
+    height: 138.5px;
+}
+
+.hyybab__venuetour .service_content svg {
+    margin: 0 auto;
+    max-width: 160px;
+}
+
+.service_header h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-family: 'AdiHaus Bold', sans-serif;
+}
+
+.footer__wrapper {
+    margin-top: 50px;
+}
+
+.service_content img {
+    margin: 0 auto;
+}
+
+.rdv_blocks__header h4 img {
+    max-width: 250px;
+}
+
+.rdv_blocks__header h4 img.medium {
+    max-width: 103px;
+}
+
+.rdv_blocks__header h4 img.small {
+    max-width: 65px;
+}
+
+#Wrapper_privacy_policy {
+    background-image: unset;
+    background-color: #000;
+}
+
+.privacy_policy_section .grid__item {
+    max-width: 1024px;
+}
+
+.privacy_policy_centent {
+    color: #fff;
+}
+
+.rdv_section .rdv__content {
+    margin-bottom: 40px;
+}
+
+.footer__wrapper {
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .mainWrapper {
+        padding: 30px 0 40px 0;
+    }
+    .mainWrapper::before {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.60);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 880px;
+        z-index: 0;
+        box-shadow: 0 -25px 27px rgba(0, 0, 0, 0.60);
+    }
+    .service_header {
+        padding-top: 15px;
+    }
+    .rdv_blocks__header h4 {
+        text-align: center;
+    }
+    .rdv_blocks__header h4 span {
+        display: block;
+        text-align: center;
+    }
+    .rendevous__logo svg {
+        max-width: 130px;
+    }
+    .pipe__logo img {
+        max-width: 70px;
+    }
+    .header_wrapper {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 570px) {
+    .grid__1_6 {
+        width: 100%;
+    }
+    .rdv_blocks_section .grid__items_inner {
+        padding: 0;
+        margin-bottom: 8px;
+    }
+    .mainWrapper {
+        background-position: left;
+    }
+}
+
+@media (min-width: 571px) and (max-width: 767px) {
+    .grid__1_6 {
+        width: 50%;
+    }
+    .rdv_blocks_section .grid__items_inner {
+        margin-bottom: 8px;
+    }
+    .mainWrapper {
+        background-position: bottom left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1260px) {
+    .grid__1_6 {
+        width: 33.33%;
+    }
+    .rdv_blocks_section .grid__items_inner {
+        margin-bottom: 8px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .service_header {
+        padding-top: 15px;
+    }
+    .grid__1_6 {
+        width: 33.33%;
+    }
+    .rdv_blocks_section .grid__items_inner {
+        margin-bottom: 8px;
+    }
+    .rdv_blocks__header h4 img {
+        max-width: 100px;
+    }
+    .rdv_blocks__header h4 img.medium {
+        max-width: 70px;
+    }
+    .rdv_blocks__header h4 img.small {
+        max-width: 36px;
+    }
+    .rdv_blocks__header h4 span {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1600px) {
+    .rdv__items {
+        max-width: 750px;
+    }
+    .container_inner {
+        max-width: 1260px;
+        margin: 0 auto;
+    }
+    .rendevous__logo svg {
+        max-width: 175px;
+    }
+}
+
+@media (min-width: 1601px) {
+    .rdv_blocks__header h4 span {
+        font-size: 1.65rem;
+    }
+    .rdv_blocks__header h4 img {
+        max-width: 275px;
+    }
+    .rdv_blocks__header h4 img.medium {
+        max-width: 140px;
+    }
+    .rdv_blocks__header h4 img.small {
+        max-width: 100px;
+    }
+}

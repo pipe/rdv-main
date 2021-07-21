@@ -333,6 +333,9 @@ ul {
     .header_wrapper {
         margin-bottom: 30px;
     }
+    .what__next .rdv_blocks__header h4 span {
+        color: #fff;
+    }
 }
 
 @media (max-width: 570px) {
